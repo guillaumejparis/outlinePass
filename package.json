@@ -1,0 +1,13 @@
+{
+  "name": "outlinePass",
+  "version": "0.1.0",
+  "description": "JavaScript 3D library",
+  "main": "build/outlinePass.js",
+  "repository": "mrdoob/three.js",
+    "main": "./build/cannon.js",
+    "licenses" : [
+        {
+            "type" : "MIT"
+        }
+    ]
+}
