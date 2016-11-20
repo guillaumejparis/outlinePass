@@ -1,13 +1,29 @@
 {
   "name": "outlinePass",
-  "version": "0.1.0",
-  "description": "JavaScript 3D library",
-  "main": "build/outlinePass.js",
-  "repository": "mrdoob/three.js",
-    "main": "./build/cannon.js",
-    "licenses" : [
-        {
-            "type" : "MIT"
-        }
-    ]
+  "version": "1.0.0",
+  "description": "is the three.js OutlinePass from official repo examples",
+  "main": "build/OutlinePass.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; npm run _push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumejparis/outlinePass"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "3d",
+    "camera",
+    "controls"
+  ],
+  "author": {
+    "name": "",
+    "url": ""
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "three": "0.x"
+  }
 }
