@@ -2,8 +2,8 @@
  * @author spidersharma / http://eduperiment.com/
  */
 var THREE = require('three')
- 
-module.exports = OutlinePass = function ( resolution, scene, camera, selectedObjects ) {
+
+function OutlinePass( resolution, scene, camera, selectedObjects ) {
 
 	this.renderScene = scene;
 	this.renderCamera = camera;
@@ -499,3 +499,5 @@ THREE.OutlinePass.prototype = Object.assign( Object.create( THREE.Pass.prototype
 	}
 
 } );
+
+module.exports = OutlinePass;
